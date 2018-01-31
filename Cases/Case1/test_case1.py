@@ -1,3 +1,4 @@
+#-*- coding=utf-8 -*-
 import sys
 sys.path.append('../../')
 from BaseUnit.re_testcase import reTestCase
@@ -5,4 +6,5 @@ from BaseUnit.re_testcase import reTestCase
 class Case1(reTestCase):
 
     def test(self):
-        print u"this is case1"
+        raise Exception("error in case1")
+        print "This is case1"
